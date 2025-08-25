@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Insert AboutMe</title>
+</head>
+<body>
+<h1>Insert AboutMe</h1>
+<div class="form">
+    <form action="/insert" method="post">
+
+        <!-- Username -->
+        <label for="username">Username:</label> <br>
+        <input name="username" type="text" id="username" placeholder="Username" required>
+        <br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label> <br>
+        <input name="password" type="password" id="password" placeholder="Password" required>
+        <br><br>
+
+        <!-- Submit Button -->
+        <button type="submit">Insert</button>
+        <button type="reset">Reset</button>
+    </form>
+    <br><br>
+    <form>
+        <button type="button" onclick="window.history.back();">
+            Go Back
+        </button>
+    </form>
+</div>
+</body>
+</html>

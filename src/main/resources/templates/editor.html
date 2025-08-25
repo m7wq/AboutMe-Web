@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <form method="post">
+
+        <!-- For -> -->
+        <label for="username">Username:</label> <br>
+        <input required type="text" id="username" name="username" placeholder="Username">
+        <br><br>
+        <label for="password">Password</label> <br>
+        <input required type="password" id="password" name="password" placeholder="Password">
+
+        <br> <br>
+
+        <!-- Fields Appending Inputs -->
+        <label for="head">Head:</label> <br>
+        <input required type="text" name="head" id="head">
+        <br><br>
+        <label for="description">Description</label> <br>
+        <textarea required rows="6" cols="50" name="description" id="description" placeholder="Write your description..."></textarea>
+        <br> <br>
+
+        <!-- Finalize Button -->
+        <button type="submit">Append</button>
+        <button type="reset">Reset</button>
+        <br>
+        <a href="/editor/remover">Go to the remover</a>
+    </form>
+    <br><br>
+    <form>
+        <button type="button" onclick="window.history.back();">
+            Go Back
+        </button>
+    </form>
+</body>
+</html>
